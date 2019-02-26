@@ -1,0 +1,11 @@
+{
+    "linters": {
+        "src/**/*.{js,md,vue}": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "ignore": [
+        "**/dist/*.min.js"
+    ]
+}
